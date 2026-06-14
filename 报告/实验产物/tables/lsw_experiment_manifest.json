@@ -1,0 +1,25 @@
+{
+  "owner": "BirdCLEF2026 课程实验",
+  "dataset": "BirdCLEF2026",
+  "status": "classical_completed",
+  "generated_at": "2026-06-12T00:04:55+08:00",
+  "stage": "lsw_classical",
+  "models": [
+    "extra_trees",
+    "linear_svm",
+    "knn_distance",
+    "logistic_regression_l1"
+  ],
+  "best_classical_model": "extra_trees",
+  "sample_count": 739,
+  "feature_column_count": 161,
+  "label_column_count": 75,
+  "metric_focus": [
+    "LRAP",
+    "label ranking loss",
+    "coverage error",
+    "hamming loss",
+    "micro/macro F1",
+    "Top-k hit rate"
+  ]
+}

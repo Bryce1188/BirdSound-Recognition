@@ -1,0 +1,7 @@
+family,count,description
+基础统计,2,"duration_sec, sample_rate"
+MFCC及差分,120,20个MFCC + 一阶/二阶差分统计
+音高Pitch,5,f0_mean/std/min/max + voiced_ratio
+音量Volume,4,rms_mean/std/max + dynamic_range
+音色Timbre,24,谱质心/带宽/滚降/平坦度/谱对比度/ZCR
+节奏Rate,6,onset_count/rate/strength + peak_count/rate

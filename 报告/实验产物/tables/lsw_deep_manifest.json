@@ -1,0 +1,34 @@
+{
+  "owner": "李少威",
+  "dataset": "BirdCLEF2026",
+  "status": "deep_completed",
+  "generated_at": "2026-06-11T21:17:34+08:00",
+  "stage": "lsw_deep",
+  "device": "cuda",
+  "models": [
+    "cnn_baseline_lsw",
+    "attention_bigru"
+  ],
+  "best_deep_model": "cnn_baseline_lsw",
+  "sample_count": 739,
+  "label_column_count": 75,
+  "saved_models": [
+    "报告/实验产物/models/cnn_baseline_lsw_fold1.pt",
+    "报告/实验产物/models/cnn_baseline_lsw_fold2.pt",
+    "报告/实验产物/models/cnn_baseline_lsw_fold3.pt",
+    "报告/实验产物/models/cnn_baseline_lsw_fold4.pt",
+    "报告/实验产物/models/cnn_baseline_lsw_fold5.pt",
+    "报告/实验产物/models/attention_bigru_fold1.pt",
+    "报告/实验产物/models/attention_bigru_fold2.pt",
+    "报告/实验产物/models/attention_bigru_fold3.pt",
+    "报告/实验产物/models/attention_bigru_fold4.pt",
+    "报告/实验产物/models/attention_bigru_fold5.pt"
+  ],
+  "deep_training_defaults": {
+    "max_epochs": 10,
+    "n_splits": 5,
+    "batch_size": 256,
+    "dropout": 0.35,
+    "optimization": "pos_weight + dropout + early stopping + attention_bigru SpecAugment"
+  }
+}
