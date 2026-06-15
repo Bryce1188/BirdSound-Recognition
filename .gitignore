@@ -11,6 +11,11 @@ env/
 !.env.example
 
 web_test_audio/
+数据集/birdclef-2026/
+报告/实验产物/web_cache/
+**/web_cache/
+**/__pycache__/
+*.mp4
 *.tmp
 *.log
 
